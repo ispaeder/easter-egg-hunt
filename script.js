@@ -192,7 +192,7 @@ const moveBasket = (key) => {
 
 const startGame = () => {
     createBasket();  //basket needs to be created before eggs!
-    createEgg(4);
+    createEgg(5);
 };
 
 
