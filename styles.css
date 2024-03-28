@@ -1,0 +1,94 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: cursive;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+title {
+  display: none;
+}
+
+p {
+    margin: 10px auto;
+}
+
+#game-stats {
+    height: 80px;
+}
+
+#game-container {
+    border: 2px solid green;
+    min-width: 40px;
+    min-height: 20px;
+    background-color: rgb(200, 230, 170);
+}
+
+td {
+    border-collapse: collapse;
+    background-color: rgb(220, 250, 190);
+    color: rgb(200, 230, 170);
+    font-size: 0.8em;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button {
+    font-size: 16px;
+    background-image: linear-gradient(white, goldenrod);
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(white, wheat);
+}
+
+#play-again-btn {
+    display: none;
+}
+
+#score-display {
+    display: none;
+}
+
+#win-msg {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: deeppink;
+}
+
+#test-output {
+    font-size: 0.8em;
+    max-width: 500px;
+    overflow-x: auto;
+}
+
+
+.basket {
+    background-image: url(basket.svg);
+}
+
+.egg-blue {
+    background-image: url(egg-blue.svg);
+}
+
+.egg-pink {
+    background-image: url(egg-pink.svg);
+}
+
+.egg-yellow {
+    background-image: url(egg-yellow.svg);
+}
+
+.green {
+    color: green;
+}
