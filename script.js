@@ -205,6 +205,13 @@ startBtn.addEventListener("click", (e) => {
     document.addEventListener('keyup', ({key}) => {
         if(canMove) moveBasket(key);
     });
+
+    // from Stackoverflow (to keep window from moving when arrows are pressed)
+    window.addEventListener("keydown", function(e) {
+        if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+            e.preventDefault();
+        }
+    }, false);
 });
 
 // separate let's go and play again buttons, so addEvent Listener will not be called twice
