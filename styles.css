@@ -31,7 +31,6 @@ p {
 }
 
 td {
-    border-collapse: collapse;
     background-color: rgb(220, 250, 190);
     color: rgb(200, 230, 170);
     font-size: 0.8em;
