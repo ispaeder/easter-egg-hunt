@@ -243,8 +243,9 @@ ideas for variations:
 -- or: lose if you don't collect all eggs before timeout!
 - add a second player and take turns (you might want the second player to use WASD keys, you might also want to limit the amount of moves each player can make per round)
 - create an 'enemy' that will make a random move whenever you move, if it hits and egg, it destroys it, if it hits you - game over! (more interesting in a small game field!)
--add levels with less time to collect eggs each round or more enemies each round etc.
+- add levels with less time to collect eggs each round or more enemies each round etc.
+- add 'surprise egg' that could randomly either give a higher score than other eggs or reduce the score!
 
-[to do: more egg colors, one more basket, enemy graphics for others to play with]
+[to do: add enemy graphics for others to play with]
 */
 
